@@ -1,0 +1,7 @@
+.sesion{
+  text-align: right;
+}
+.boton{
+  display: flexbox;
+  margin-left: 98%;
+}
