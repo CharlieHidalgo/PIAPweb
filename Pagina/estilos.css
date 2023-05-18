@@ -15,7 +15,6 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   left: 60%; 
   background: rgb(55, 65, 70);
   padding: 20px;
@@ -30,8 +29,8 @@ body{
   font-size: 20px;
   float: left;
   line-height: 60px;
-  transition: .3s;
-  width: 0;
+  
+  
 }
 
 .boton{
@@ -42,28 +41,7 @@ body{
   font-size: 30px;
 }
 
-/* Tamaño dependiendo la pantalla */
-@media screen and (min-width:480px) {
-  .buscar:hover > .buscador{
-    width: 190px;
-  }
-}
-
-@media screen and (min-width:768px) {
-  .buscar:hover > .buscador{
-    width: 300px;
-  }
-}
-
-@media screen and (min-width:1024px) {
-  .buscar:hover > .buscador{
-    width: 500px;
-  }
-}
-/* Tamaño dependiendo la pantalla */
-
 /* Posicion dependiendo la pantalla */
-
 @media screen and (min-width:480px) {
   .buscar{
     left: 30%; 
@@ -88,7 +66,6 @@ body{
   }
 }
 /* Posicion dependiendo la pantalla */
-
 /* buscador */
 
 /* centrar div */
@@ -143,21 +120,13 @@ body{
   100% { margin-left: -300%;}
 }
 
+@media screen and (min-width: 480px){
+  .container{
+    padding-top: 10%;
+  }
+}
+
 /* slider */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
