@@ -1,81 +1,8 @@
 body{
-  background-color: #FACCE1;
+  background-color: gray;
   font-family: Arial;
 }
-
-/* separacion de navegador entre palabras */
-.nav-item{
-  display: flexbox;
-  margin-left: 10%;
-}
-
-@media screen and (min-width:992px) {
-  #inicio{
-    padding-left: 80%;
-  }
-}
-
-/* separacion de navegador entre palabras */
-
-/* buscador */
-.buscar{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  left: 60%; 
-  background: rgb(55, 65, 70);
-  padding: 20px;
-  height: 20px;
-  border-radius: 40px;
-}
-.buscador{
-  border: none;
-  background: none;
-  outline: none;
-  color: white;
-  font-size: 20px;
-  float: left;
-  line-height: 60px; 
-}
-
-.boton{
-  width: 40px;
-  height: 40px;
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
-}
-
-/* Posicion dependiendo la pantalla */
-@media screen and (min-width:480px) {
-  .buscar{
-    left: 30%; 
-    width: 80%;
-  }
-}
-
-@media screen and (min-width:768px) {
-  .buscar{
-    left: 40%; 
-    width: 50%;
-  }
-}
-
-@media screen and (min-width:992px) {
-  .buscar{
-    left: 65%; 
-    width: 100%;
-  }
-}
-
-@media screen and (min-width:1024px) {
-  .buscar{
-    left: 70%;
-    width: 100%; 
-  }
-}
-/* Posicion dependiendo la pantalla */
-/* buscador */
+ 
 
 /* centrar div */
 .container {
@@ -84,9 +11,7 @@ body{
   place-content: center;
 }
 /* centrar div */
-img{
-  max-width: 100%;
-}
+
 /* slider */
 .slider{
   width: 50%;
@@ -146,10 +71,15 @@ img{
 /* slider */
 
 /* Main productos */
-.col-sm{
-  padding: 50px;
+.img{
+  width: 50%;
 }
 
+
+.col{
+  
+  text-align: center;
+}
 
 
 /* Main productos */
