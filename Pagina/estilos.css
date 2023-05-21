@@ -136,37 +136,6 @@ body{
 /* Main productos */
 
 /* ANUNCIOS */
-.banner{
-  margin-top: 20%;
-  margin-left: 25%;
-  width: 50%;
-  height: 300px;
-  background-size: 100% 100%;
-  align-items: center;
-  animation-name: banner;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-@media screen and (max-width:768px) {
-  .banner{
-    width: 100%;
-    margin-left: 0;
-  }
-  
-}
-
-@keyframes banner {
-  0%, 30%{
-    background-image: url(./imagenes/nf.png);
-  }
-  35%, 65%{
-    background-image: url(./imagenes/zelda.jpg);
-  }
-  70%, 100%{
-    background-image: url(./imagenes/Nintendo_switch_logo_nombre.png);
-  }
-}
 
 
 /* ANUNCIOS */
