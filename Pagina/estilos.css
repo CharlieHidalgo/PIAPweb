@@ -129,18 +129,31 @@ body{
   background-color: #298e46;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
+.container-items{
+  padding-top: 10%;
+}
 /* Botones de compra */
 /* Main productos */
 
 /* ANUNCIOS */
 .banner{
-  margin-top: 10%;
-  width: 100%;
+  margin-top: 20%;
+  margin-left: 25%;
+  width: 50%;
   height: 300px;
   background-size: 100% 100%;
+  align-items: center;
   animation-name: banner;
   animation-duration: 10s;
   animation-iteration-count: infinite;
+}
+
+@media screen and (max-width:768px) {
+  .banner{
+    width: 100%;
+    margin-left: 0;
+  }
+  
 }
 
 @keyframes banner {
