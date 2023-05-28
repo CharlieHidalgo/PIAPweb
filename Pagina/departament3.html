@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina web</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="stylesheet" href="./estilos.css">
-    <link rel="stylesheet" href="./boton-buscar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/boton-buscar.css">
 </head>
 <body>
   <!-- navegador -->
@@ -20,17 +21,14 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Login.html">Inicio de Sesion</a>
-          </li>
-          <li class="nav-item">
-            <a href="./sobreNosotros.html" class="nav-link">sobreNosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contacto.html">Contactos</a>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Nosotros
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./contacto.html">Contactos</a></li>
+            </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -42,10 +40,9 @@
               <li><a class="dropdown-item" href="./departament3.html">Abarrotes</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Carrito <i class="fa-solid fa-cart-shopping"></i></a>
-          </li>
         </ul>
+        <a href="./login.html"><i class="fa-solid fa-right-to-bracket"></i></a>
+        <a class="nav-link" href=""><i class="fa-solid fa-cart-shopping"></i></a>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Buscar en 'nombre'" aria-label="Search">
           <button class="btn btn btn-dark" type="submit">Buscar</button>
