@@ -141,3 +141,17 @@ body{
 /* ANUNCIOS */
 
 
+
+.contenedor-anuncio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; 
+}
+
+.contenedor-anuncio img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
