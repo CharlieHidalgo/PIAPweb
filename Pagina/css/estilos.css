@@ -1,8 +1,12 @@
 body{
-  background-color: gray;
+  background-image: url("bgAzul.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   font-family: Arial;
 }
- 
+
 
 /* centrar div */
 .container {
@@ -156,3 +160,7 @@ body{
   object-fit: contain;
 }
 
+h1{
+  text-shadow: #333131;
+  font-weight: bolder;
+}
